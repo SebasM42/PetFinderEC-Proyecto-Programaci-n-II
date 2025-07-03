@@ -56,6 +56,7 @@ public class VentanaBuscarMascotas extends JFrame {
                 }
             }
 
+
             if (resultadosArea.getText().isEmpty()) {
                 resultadosArea.setText("No se encontraron coincidencias.");
             }
