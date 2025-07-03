@@ -13,6 +13,7 @@ public class Mascota {
         this.tamanio = tamanio;
     }
 
+
     public String getTipo() {
         return tipo;
     }
