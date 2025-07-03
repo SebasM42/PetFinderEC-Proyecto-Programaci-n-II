@@ -6,8 +6,8 @@ public class Mascota {
     private String tamanio;
 
     public Mascota(String nombre, String tipo, String raza, String color, String tamanio) {
-        if (nombre == null || nombre.isEmpty() || tipo == null || tipo.isEmpty()) {
-            throw new IllegalArgumentException("Nombre y tipo no pueden ser nulos o vacíos");
+        if (color == null || color.isEmpty()) {
+            throw new IllegalArgumentException("Color no puede ser nulo o vacío");
         }
         this.nombre = nombre;
         this.tipo = tipo;
